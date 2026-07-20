@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "version": "2026-07-20.v1",
+  "cases": [
+    {
+      "fixtureId": "distribution-first-wrong-step",
+      "pedagogyAssetId": "distribution-v1",
+      "expectedFirstInvalidIndex": 2,
+      "expectedCategory": "distribution",
+      "governingRule": "Multiply every term inside the parentheses by the outside factor.",
+      "pedagogy": {
+        "category": "distribution",
+        "hint": "Check whether the outside factor reached every term inside the parentheses.",
+        "explanation": "The distributive property scales each term in the grouped expression before you simplify."
+      },
+      "fallback": {
+        "category": "distribution",
+        "hint": "Inspect how the factor outside the parentheses applies to each inside term.",
+        "explanation": "Use the distributive property, then verify that the new equation has the same solution set."
+      },
+      "allowedConcepts": [
+        "factor",
+        "each term",
+        "distributive property",
+        "solution set"
+      ],
+      "forbiddenConcepts": ["change the sign", "divide both sides"]
+    },
+    {
+      "fixtureId": "sign-equality-first-wrong-step",
+      "pedagogyAssetId": "equality-v1",
+      "expectedFirstInvalidIndex": 2,
+      "expectedCategory": "equality_preservation",
+      "governingRule": "Each transformation must preserve the same solution set.",
+      "pedagogy": {
+        "category": "equality_preservation",
+        "hint": "Compare what changed on both sides and ask whether the same values still satisfy the equation.",
+        "explanation": "A valid transformation must keep the equation balanced and preserve exactly the same solution set."
+      },
+      "fallback": {
+        "category": "equality_preservation",
+        "hint": "Check whether this move keeps both sides balanced.",
+        "explanation": "Every transformation must preserve exactly the same solution set."
+      },
+      "allowedConcepts": ["both sides", "balanced", "solution set"],
+      "forbiddenConcepts": ["distributive property", "combine like terms"]
+    },
+    {
+      "fixtureId": "fully-valid-isolation",
+      "pedagogyAssetId": "fully-valid-v1",
+      "expectedFirstInvalidIndex": -1,
+      "expectedCategory": "inverse_operation",
+      "governingRule": "Apply the same inverse operation to both sides.",
+      "pedagogy": {
+        "category": "inverse_operation",
+        "hint": "Your transformations preserve the solution set.",
+        "explanation": "Each inverse operation was applied consistently, leaving the variable isolated."
+      },
+      "fallback": {
+        "category": "inverse_operation",
+        "hint": "Recheck each inverse operation on both sides.",
+        "explanation": "Equivalent steps preserve the same solution set while isolating the variable."
+      },
+      "allowedConcepts": [
+        "inverse operation",
+        "both sides",
+        "solution set",
+        "isolated"
+      ],
+      "forbiddenConcepts": ["wrong step", "distribution error"]
+    }
+  ]
+}

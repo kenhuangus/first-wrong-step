@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "distribution-first-wrong-step",
+  "title": "Distribute before isolating x",
+  "skillTag": "distribution",
+  "problem": "3 * (x + 2) = 18",
+  "steps": ["3 * (x + 2) = 18", "3 * x + 2 = 18", "3 * x = 16", "x = 16 / 3"],
+  "expectedFirstInvalidIndex": 2,
+  "expectedCategory": "distribution",
+  "governingRule": "Multiply every term inside the parentheses by the outside factor.",
+  "provenance": "GPT-5.6-assisted"
+}

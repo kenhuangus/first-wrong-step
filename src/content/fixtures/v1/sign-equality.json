@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "sign-equality-first-wrong-step",
+  "title": "Preserve equality when moving a term",
+  "skillTag": "equality_preservation",
+  "problem": "2 * x + 3 = 11",
+  "steps": ["2 * x + 3 = 11", "2 * x = 14", "x = 7"],
+  "expectedFirstInvalidIndex": 2,
+  "expectedCategory": "equality_preservation",
+  "governingRule": "Each transformation must preserve the same solution set.",
+  "provenance": "GPT-5.6-assisted"
+}

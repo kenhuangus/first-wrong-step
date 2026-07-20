@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "fully-valid-isolation",
+  "title": "A fully valid isolation",
+  "skillTag": "inverse_operation",
+  "problem": "4 * x + 8 = 24",
+  "steps": ["4 * x + 8 = 24", "4 * x = 16", "x = 4"],
+  "expectedFirstInvalidIndex": -1,
+  "expectedCategory": "inverse_operation",
+  "governingRule": "Apply the same inverse operation to both sides.",
+  "provenance": "GPT-5.6-assisted"
+}

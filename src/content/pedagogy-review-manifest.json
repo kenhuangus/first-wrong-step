@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 2,
+  "reviewVersion": "2026-07-20.v2",
+  "provenance": "Reviewed content was authored and refined through Codex using the user's GPT-5.6 Sol ultra Greenfield Software Factory workflow, then shipped as static reviewed assets. No live model call occurs at runtime.",
+  "reviewer": "project owner",
+  "reviewedAt": "2026-07-20",
+  "assets": [
+    {
+      "fixtureId": "distribution-first-wrong-step",
+      "pedagogyAssetId": "distribution-v1",
+      "evidenceDigest": "sha256:696899f7ebd016884992e3e0716c3f2bba38bb35ac28ae06c29f34c9986a23aa",
+      "contentDigest": "sha256:5522bf85bd7bf469005c5446ca81ba52830b2e90cf8ddf2f885a174a172e1ccc",
+      "rubric": {
+        "schemaValid": true,
+        "matchesDeterministicIndex": true,
+        "matchesDeterministicCategory": true,
+        "matchesGoverningRule": true,
+        "doesNotRevealFinalAnswer": true,
+        "doesNotEnumerateRemainingSteps": true,
+        "plainTextOnly": true,
+        "syntheticDataOnly": true
+      }
+    },
+    {
+      "fixtureId": "sign-equality-first-wrong-step",
+      "pedagogyAssetId": "equality-v1",
+      "evidenceDigest": "sha256:ef3b9461b8b12ecd3ff7532e3502f46fd81c6e12b98c494481051eef0e244b10",
+      "contentDigest": "sha256:a6307e6502df3fea534dbc1238e2608b56e3ffd18f5e97b4f9663a27ff0fcc39",
+      "rubric": {
+        "schemaValid": true,
+        "matchesDeterministicIndex": true,
+        "matchesDeterministicCategory": true,
+        "matchesGoverningRule": true,
+        "doesNotRevealFinalAnswer": true,
+        "doesNotEnumerateRemainingSteps": true,
+        "plainTextOnly": true,
+        "syntheticDataOnly": true
+      }
+    },
+    {
+      "fixtureId": "fully-valid-isolation",
+      "pedagogyAssetId": "fully-valid-v1",
+      "evidenceDigest": "sha256:1a820d572381f41298cce9589f8be9273d7cbe7508b9eec6be83826ba8d81b52",
+      "contentDigest": "sha256:b9dd25bc61bf83d7e02aa8e630f518fd4102b531cfdef7b2503af4ffb7a1373e",
+      "rubric": {
+        "schemaValid": true,
+        "matchesDeterministicIndex": true,
+        "matchesDeterministicCategory": true,
+        "matchesGoverningRule": true,
+        "doesNotRevealFinalAnswer": true,
+        "doesNotEnumerateRemainingSteps": true,
+        "plainTextOnly": true,
+        "syntheticDataOnly": true
+      }
+    }
+  ]
+}

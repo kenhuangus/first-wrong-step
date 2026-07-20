@@ -1,0 +1,10 @@
+.factory/
+.git/
+node_modules/
+dist/
+build/
+playwright-report/
+test-results/
+coverage/
+package-lock.json
+

@@ -1,0 +1,17 @@
+.git
+.github
+.factory
+node_modules
+/dist
+/build
+/playwright-report
+/test-results
+/coverage
+.env
+.env.*
+!.env.example
+*.log
+*.tsbuildinfo
+Dockerfile*
+README.md
+BUILD_AND_SUBMISSION.md

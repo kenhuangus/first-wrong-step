@@ -57,4 +57,4 @@ Supported input is one-variable linear algebra with integers or rational constan
 
 ## License
 
-No license grant is included at this time. All rights reserved by the repository owner.
+First Wrong Step is available under the [MIT License](LICENSE).
